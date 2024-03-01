@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css" />
+    <script src="bootstrap.bundle.js"></script>
+    <!-- <script src="bootstrap.js"></script> -->
+
+</head>
+
+<body>
+    <div class="container-fluid mx-0 border" style="background-color:rgb(243, 246, 249);">
+
+        <!-- Header-1 -->
+
+        <header>
+            <div class="col bg-pink text-light">
+                <ul class="list-inline text-end me-5">
+                    <li class="list-inline-item"><a href="#" class="text-light">Corporate Gifts</a></li>
+                    <li class="list-inline-item"> | </li>
+                    <!-- Top Dropdown no-1 -->
+                    <li class="list-inline-item dropdown">
+                        <a href="#" class="dropdown-toggle text-light" data-bs-toggle="dropdown">Enquiries</a>
+
+                        <ul class="dropdown-menu text-center" style="z-index:1021;">
+                            <li><a class="dropdown-item text-dark" href="#">--1--</a></li>
+                            <li><a class="dropdown-item text-dark" href="#">--2--</a></li>
+                            <li><a class="dropdown-item text-dark" href="#">--3--</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Header-2 / Heading / Logo -->
+
+        <header class="row py-2 bg-white">
+            <div class="col">
+                <ul type="none" class="h5 text-dark d-flex">
+                    <li class="mx-2"><i class="zmdi zmdi-facebook"></i></li>
+                    <li class="mx-2"><i class="zmdi zmdi-instagram"></i></li>
+                    <li class="mx-2"><i class="zmdi zmdi-email"></i></li>
+                </ul>
+            </div>
+            <div class="col text-center"> <span class="display-6 my-1">Brooke's</span></div>
+            <div class="col text-end me-3"><button type="button" data-bs-toggle="modal"
+                    data-bs-target="#modal-1">ORDER</button></div>
+        </header>
+
+        <!-- Modal-1 -->
+
+        <div class="modal" id="modal-1">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content p-4">
+
+                    <div class="model-header text-end">
+                        <h4 class="modal title">Heading</h4>
+                        <button type="button" class="btn border btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="model-body text-center my-4">
+                        <h4 class="mb-3">Add Items</h4>
+                        <button type="button" class="btn btn-outline-info">Login</button>
+                        <button type="button" class="btn btn-outline-warning">Shop Now</button>
+                    </div>
+
+                    <div class="model-footer text-center">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Nav / Menue Bar -->
+
+        <nav class="nav navbar my-3 navbar-expand-sm justify-content-center nav-1 mb-5">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Menu</a>
+                <ul class="dropdown-menu text-center" style="z-index:1021;">
+                    <li><a class="dropdown-item" href="#">Menu-1</a></li>
+                    <li><a class="dropdown-item" href="#">Menu-2</a></li>
+                    <li><a class="dropdown-item" href="#">Menu-3</a></li>
+                    <li><a class="dropdown-item" href="#">Menu-4</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Gallary</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Prising</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Faq</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+        </nav>
+
+        <!-- logo / Search / Add to cart-->
+
+        <div class="row py-3 bg-pink sticky-top">
+
+            <div class="col-sm-6 row">
+
+                <div class="col-4 text-light">
+                    <h1>Brooke's</h1>
+                </div>
+
+                <div class="col-8 py-3"> <input type="text" class="w-100 p-1 rounded"
+                        placeholder="Search flowers,cakes,gifts,etc."></div>
+
+            </div>
+
+            <div class="col-sm-6 row">
+
+                <div class="col py-3"> <input type="text" class="w-100 rounded p-1"
+                        placeholder="Select Delivery Location"> </div>
+
+                <div class="col text-end">
+                    <button class="btn text-light"> <span class="h5"> <i class="zmdi zmdi-shopping-cart"></i> <br> Cart
+                        </span> </button>
+                    <button class="btn text-light"> <span class="h5"> <i class="zmdi zmdi-account-circle"></i> <br> Hi
+                            Guest </span> </button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Option Tape -->
+
+        <div class="row my-2">
+            <ul class="list-inline bg-white py-2">
+
+                <li class="list-inline-item dropdown">
+                    <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown">RAKHI GIFTS</a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="" class="dropdown-item text-dark">000</a></li>
+                    </ul>
+                </li>
+
+                <li class="list-inline-item dropdown">
+                    <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown">BIRTHDAY</a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="" class="dropdown-item text-dark">000</a></li>
+                    </ul>
+                </li>
+
+                <li class="list-inline-item dropdown">
+                    <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown">ANNIVERSERY</a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="" class="dropdown-item text-dark">000</a></li>
+                    </ul>
+                </li>
+
+                <li class="list-inline-item dropdown">
+                    <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown">GLOBALS</a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="" class="dropdown-item text-dark">000</a></li>
+                    </ul>
+                </li>
+
+                <li class="list-inline-item dropdown">
+                    <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown">CAKE</a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="" class="dropdown-item text-dark">000</a></li>
+                    </ul>
+                </li>
+
+                <li class="list-inline-item dropdown">
+                    <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown">FLOWERS</a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="" class="dropdown-item text-dark">000</a></li>
+                    </ul>
+                </li>
+
+                <li class="list-inline-item dropdown">
+                    <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown">PERSONOLISED</a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="" class="dropdown-item text-dark">000</a></li>
+                    </ul>
+                </li>
+
+                <li class="list-inline-item dropdown">
+                    <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown">PLANTS</a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="" class="dropdown-item text-dark">000</a></li>
+                    </ul>
+                </li>
+
+                <li class="list-inline-item dropdown">
+                    <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown">CHOCOLATES</a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="" class="dropdown-item text-dark">000</a></li>
+                    </ul>
+                </li>
+
+                <li class="list-inline-item dropdown">
+                    <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown">COMBOS</a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="" class="dropdown-item text-dark">000</a></li>
+                    </ul>
+                </li>
+
+                <li class="list-inline-item dropdown">
+                    <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown">MORE</a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="" class="dropdown-item text-dark">000</a></li>
+                    </ul>
+                </li>
+
+                <li class="list-inline-item dropdown">
+                    <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown">OCATIONS</a>
+                    <ul class="dropdown-menu">
+                        <li> <a href="" class="dropdown-item text-dark">000</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- Delivery details-->
+
+        <div class="row text-center bg-white p-2 my-3">
+            <div class="col"><span><i class="zmdi zmdi-alarm-check"></i> Hour Delivery</span></div>
+            <div class="col"><span><i class="zmdi zmdi-truck"></i> Free Shipping</span></div>
+            <div class="col"><span><i class="zmdi zmdi-mall"></i> 90 Thousand+ Gifts </span></div>
+            <div class="col"><span><i class="zmdi zmdi-mood"></i> 8 Million Happy Customers</span></div>
+        </div>
+
+        <!-- Main Start -->
+
+        <section class="container-fluid p-0 m-0">
+            <div class="row mx-0 p-1 bg-white">
+                <!-- Filter -->
+                <div class="col-sm-3 p-2">
+                    <div class="filter border shadow p-3">
+                        <h4>Filter</h4>
+                        <hr>
+                        <div class="row">
+                            <div class="col">Price</div>
+
+                            <div class="col text-end"> <button class="btn px-2 py-0 btn-outline-dark"
+                                    data-bs-toggle="collapse" data-bs-target="#price_range">-</button> </div>
+
+                            <ul class="collapse" id="price_range">
+                                <li class="dropdown-item"> <input type="checkbox" value="" id="">₹ 0 TO ₹ 499</li>
+                                <li class="dropdown-item"> <input type="checkbox" value="" id="">₹ 0 TO ₹ 499</li>
+                                <li class="dropdown-item"> <input type="checkbox" value="" id="">₹ 0 TO ₹ 499</li>
+                                <li class="dropdown-item"> <input type="checkbox" value="" id="">₹ 0 TO ₹ 499</li>
+                                <li class="dropdown-item"> <input type="checkbox" value="" id="">₹ 0 TO ₹ 499</li>
+                                <li class="dropdown-item"> <input type="checkbox" value="" id="">₹ 0 TO ₹ 499</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Product-room -->
+                <div class="col-sm-9 p-2 m-0 product-room">
+
+                    <!-- Product Hedding -->
+                    <div class="col bg-white shadow py-1">
+
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <span class="h4 ms-4">Memorable Birthday Gifts <span
+                                        class="badge bg-success ms-2">4.0</span></span>
+                            </li>
+                            <li class="list-inline-item ms-4"><a href="">47619 Reviews</a></li>
+                            <li class="list-inline-item ms-3"> | </li>
+                            <li class="list-inline-item ms-2"> 72 of 794 Gifts </li>
+
+                        </ul>
+
+                        <!-- <span>Sort by :</span> -->
+                        <ul class="list-inline">
+                            <span class="ms-4">Sort by :</span>
+                            <li class="list-inline-item ms-3">Recomended</li>
+                            <li class="list-inline-item ms-3">New</li>
+                            <li class="list-inline-item ms-3">Price : Low to Heigh</li>
+                            <li class="list-inline-item ms-3">Price : Heigh to Low</li>
+                        </ul>
+
+                    </div>
+
+                    <!-- Product Buttons -->
+                    <div class="m-2 p-2">
+                        <button class="btn shadow btn-outline-dark m-1" data-bs-toggle="collapse"
+                            data-bs-target="#">Flowers</button>
+                        <button class="btn shadow btn-outline-dark m-1" data-bs-toggle="collapse"
+                            data-bs-target="#">Cakes</button>
+                        <button class="btn shadow btn-outline-dark m-1" data-bs-toggle="collapse"
+                            data-bs-target="#">Personalised Gifts</button>
+                        <button class="btn shadow btn-outline-dark m-1" data-bs-toggle="collapse"
+                            data-bs-target="#">Plants</button>
+                        <button class="btn shadow btn-outline-dark m-1" data-bs-toggle="collapse"
+                            data-bs-target="#">Combos</button>
+                        <button class="btn shadow btn-outline-dark m-1" data-bs-toggle="collapse"
+                            data-bs-target="#">Gift Hampers</button>
+                    </div>
+
+                    <!-- Collapse & Show room -->
+                    <section>
+                        <div class="" id="all_in_one_prodocts">
+
+                            <div class="row my-3">
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+                                        <div class="card-body"><img src="img/A_boke-1.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+                                        <div class="card-body"><img src="img/A_boke-1.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+
+                                        <div class="card-body"><img src="img/A_boke-1.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row my-3">
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+                                        <div class="card-body"><img src="img/A_cake-1.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+                                        <div class="card-body"><img src="img/A_cake-1.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+
+                                        <div class="card-body"><img src="img/A_cake-1.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row my-3">
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+                                        <div class="card-body"><img src="img/A_chockle_in_mug.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+                                        <div class="card-body"><img src="img/A_chockle_in_mug.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+
+                                        <div class="card-body"><img src="img/A_chockle_in_mug.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row my-3">
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+                                        <div class="card-body"><img src="img/A_plants.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+                                        <div class="card-body"><img src="img/A_plants.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+
+                                        <div class="card-body"><img src="img/A_plants.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row my-3">
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+                                        <div class="card-body"><img src="img/A_gifts.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+                                        <div class="card-body"><img src="img/A_gifts.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+
+                                        <div class="card-body"><img src="img/A_gifts.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row my-3">
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+                                        <div class="card-body"><img src="img/A_glas_pot.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+                                        <div class="card-body"><img src="img/A_glas_pot.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col mx-1">
+                                    <div class="col card mx-1 p-0">
+
+                                        <div class="card-body"><img src="img/A_glas_pot.webp" alt="img"
+                                                class="img-responsive img-thumbnail"></div>
+
+                                        <div class="row p-2 card-title">
+                                            <p>This Product is very best</p>
+                                            <h6> ₹ 649 <span class="badge bg-success float-sm-end ">4.5</span> </h6>
+                                            <font size="2">Earliest Delivery :<b>Today</b> <span
+                                                    class="float-sm-end text-secondary"> 1217 Review </span> </font>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Follow Us -->
+
+        <section class="row col-sm-12 col-lg-12 bg-pink text-light text-center mt-5 py-3 mx-auto">
+
+            <h2 class="my-3">Follow us on Insta!</h2>
+
+            <div class="row col-sm-8 my-1 mx-auto">
+                <div class="col mx-1"><img src="img/two.jpg" class="img-responsive w-100" alt="img"></div>
+                <div class="col mx-1"><img src="img/three.jpg" class="img-responsive w-100" alt="img"></div>
+                <div class="col mx-1"><img src="img/four.jpg" class="img-responsive w-100" alt="img"></div>
+                <div class="col mx-1"><img src="img/two.jpg" class="img-responsive w-100" alt="img"></div>
+                <div class="col mx-1"><img src="img/three.jpg" class="img-responsive w-100" alt="img"></div>
+                <div class="col mx-1"><img src="img/four.jpg" class="img-responsive w-100" alt="img"></div>
+            </div>
+
+            <div class="mt-3">
+                <span><i class="zmdi zmdi-facebook mx-1"></i></span>
+                <span><i class="zmdi zmdi-instagram mx-1"></i></span>
+                <span><i class="zmdi zmdi-email mx-1"></i></span>
+            </div>
+
+            <nav class="nav navbar navbar-expand-sm justify-content-center nav-2">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Gallary</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Prising</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Faq</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
+            </nav>
+
+            <p class="mt-1 mb-3">2021 Brookees Sweets & Treats | Privacy Policy | Website Designed by Bake This Happen
+            </p>
+        </section>
+
+        <!-- Fotter -->
+
+        <footer class="bg-secondary text-light text-center">
+            <p class="m-0"> &reg; All rights resurved &copy;</p>
+        </footer>
+    </div>
+</body>
+
+</html>
